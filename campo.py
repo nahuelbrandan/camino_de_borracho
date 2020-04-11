@@ -13,7 +13,7 @@ class Campo:
         self.coordenadas_de_borrachos[borracho] = coordenada
 
     def mover_borracho(self, borracho):
-        """Mueve al borracho de coordenda."""
+        """Mueve al borracho de coordenada."""
         delta_x, delta_y = borracho.camina()
         coordenada_actual = self.coordenadas_de_borrachos[borracho]
         nueva_coordenada = coordenada_actual.mover(delta_x, delta_y)
@@ -21,5 +21,5 @@ class Campo:
         self.coordenadas_de_borrachos[borracho] = nueva_coordenada
 
     def obtener_coordenada(self, borracho):
-        """Retorna la coordenda del borracho."""
+        """Retorna la coordenada del borracho."""
         return self.coordenadas_de_borrachos[borracho]

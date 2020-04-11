@@ -53,7 +53,7 @@ def obtener_camino_recorrido(pasos):
 
 
 def main():
-    """Funcion principal."""
+    """Funcion de entrada al proyecto."""
     opciones_validas = ['0', '1', '2', 'exit']
 
     menu = ('\n********************************************************************************************\n'

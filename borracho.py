@@ -17,7 +17,8 @@ class BorrachoTradicional(Borracho):
         """Inicializa el borracho tradicional."""
         super().__init__(nombre)
 
-    def camina(self):
+    @staticmethod
+    def camina():
         """Retorna una tupla.
 
         Calcula el valor aleatorio con la direccion
